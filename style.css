@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+div p {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-size: 2.5rem;
+}
+
+.btn button {
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.start-btn {
+    display: none;
+}
+
+.reset {
+    display:  none;
+}
+
+.reset-on {
+    display: inline;
+}
